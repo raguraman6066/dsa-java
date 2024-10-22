@@ -17,7 +17,9 @@ class CollectionIntroduction {
 
         List<Integer> li = new ArrayList<>(5);
         li.add(1);
-        // System.out.println(li.size());
+        li.add(2);
+        li.add(1, 3);
+        System.out.println(li);
         // a[4] = 12;
         // a1[4] = 13;// Index 4 out of bounds for length 4
         /*

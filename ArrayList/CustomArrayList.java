@@ -3,6 +3,7 @@ package ArrayList;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+//array list not synchronized - no thread safety
 public class CustomArrayList {
     Object[] ar;
     int index = 0;
