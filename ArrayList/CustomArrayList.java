@@ -31,7 +31,8 @@ public class CustomArrayList {
         StringBuffer sb = new StringBuffer();
         sb.append("[");
         // System.out.println(ar.length);
-        for (int i = 0; i < index; i++) {
+        int i = 0;
+        while (ar[i] != null) {
             if (null != ar[i]) {
 
                 if (i == (index - 1)) {
@@ -40,6 +41,7 @@ public class CustomArrayList {
                     sb.append(ar[i] + ", ");
                 }
             }
+            i++;
         }
         sb.append("]");
         return sb.toString();
